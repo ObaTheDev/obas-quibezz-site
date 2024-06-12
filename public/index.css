@@ -1,0 +1,191 @@
+.entireDiv{
+    background-color: white;
+    width: 70%;
+    margin: 15%;
+    border-radius: 20px;
+}
+.login{
+    background-color: black;
+    color: white;
+    width: 40%;
+    margin: 20%;
+    border-radius: 10px;
+    padding: 40px;
+}
+.loginButton{
+    background-color: black;
+    border: 0px;
+    color: white;
+    margin-left: 40px;
+}
+
+.signupButton{
+    background-color: black;
+    border: 0px;
+    color: white;
+    margin-left: 150px;
+}
+label{
+    text-align: left;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    background-color: black;
+    border: black 0px solid;
+    border-radius: 5px;
+    color: white;
+    width: 55%;
+    margin-left: 15px;
+    text-align: center;
+}
+.customerInfo{
+    margin-top: 10%;
+}
+input::placeholder{
+    text-align: center;
+}
+.signupbutton{
+    background-color: white;
+    margin-left: 40%;
+    margin-top: 50px;
+    border: 0px solid white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.SignID{
+    display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px){
+    .loginHead{
+        margin: 0px 2px;
+    }
+    .loginHead span {
+        width: 100%;
+    }
+    .entireDiv{
+        background-color: white;
+        width: 100% !important;
+        margin: 0px !important;
+        border-radius: 20px;
+    }
+    .formText{
+        display: inline;
+    }
+    .login{
+        background-color: black;
+        color: white;
+        width: 100% !important;
+        margin: 35% 0px !important;
+        border-radius: 10px;
+        padding: 40px 0px;
+    }
+    .loginButton{
+        background-color: black;
+        border: 0px;
+        color: white;
+        margin-left: 40px;
+    }
+    .signupButton{
+        background-color: black;
+        border: 0px;
+        color: white;
+        margin-left: 150px;
+    }
+    label{
+        text-align: left;
+        margin-left: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    input{
+        background-color: black;
+        border: black 0px solid;
+        border-radius: 5px;
+        color: white;
+        width: 40%;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .customerInfo{
+        margin-top: 10%;
+    }
+    input::placeholder{
+        text-align: center;
+    }
+    .signupbutton{
+        background-color: white;
+        margin-left: 40%;
+        margin-top: 50px;
+        border: 0px solid white;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .SignID{
+        display: none;
+    }
+    .customerInfo{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1028px){
+    .entireDiv{
+        background-color: white;
+        width: 100% !important;
+        margin: 0px !important;
+        border-radius: 20px;
+    }
+    .login{
+        background-color: black;
+        color: white;
+        width: 70%;
+        margin: 5% 15%;
+        border-radius: 10px;
+        padding: 40px 0px;
+    }
+    .loginButton{
+        background-color: black;
+        border: 0px;
+        color: white;
+        margin-left: 150px;
+    }
+    .signupButton{
+        background-color: black;
+        border: 0px;
+        color: white;
+        margin-left: 270px;
+    }
+    label{
+        text-align: left;
+        margin-left: 170px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    input{
+        background-color: black;
+        border: black 0px solid;
+        border-radius: 5px;
+        color: white;
+        width: 40%;
+        margin-left: 15px;
+        text-align: center;
+    }
+    .customerInfo{
+        margin-top: 10%;
+    }
+    input::placeholder{
+        text-align: center;
+    }
+    .signupbutton{
+        background-color: white;
+        margin-left: 40%;
+        margin-top: 50px;
+        border: 0px solid white;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .SignID{
+        display: none;
+    }
+}
